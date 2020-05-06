@@ -1,0 +1,20 @@
+{
+  "name": "chatlock",
+  "version": "1.0.0",
+  "description": "Secured Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev" : "nodemon server"
+  },
+  "author": "Anurag",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
